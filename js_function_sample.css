@@ -1,0 +1,77 @@
+@charset "utf-8";
+@import url(common/reset.css);
+
+#sec-con{
+    width: 100%;
+    max-width: 1000px;
+    height: 500px;
+    position: relative;
+    margin: 0 auto;
+    border: 1px solid;
+    overflow: hidden;
+}
+.gallery{
+    width: 500%;
+    height: 500px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.gallery>ul{
+    display: flex;
+    justify-content: space-around;
+}
+.gallery>ul>li{
+    width: 20%;
+    height: 500px;
+    box-sizing: border-box;
+}
+
+
+.center-btn{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    position:absolute;
+    top: 50%;
+    margin-top: -20px;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+.center-btn span.arrow{
+    width: 35px;
+    height: 35px;
+    background-color: crimson;
+    border-radius: 50%;   
+}
+
+.bcon{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -150px;
+}
+.bcon .items>ul{
+    display: flex;
+    justify-content: space-between;
+    width: 230px;
+    height: 50px;
+    padding: 10px 0;
+    box-sizing: border-box;    
+}
+.bcon .items>ul>li{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: burlywood;
+}
+.bcon .items>ul>li:hover{
+    background-color: crimson;
+    cursor: pointer;
+}
+
+
+
